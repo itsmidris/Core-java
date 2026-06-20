@@ -11,5 +11,8 @@ public class App {
         Student student2 = new Student(course2);
         student2.study();
 
+        Student student3 = new Student(new JavaCourse());
+        student3.study();
+
     }
 }
